@@ -11,17 +11,17 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                sh ‘mvn compile’
+                sh 'mvn compile'
             }
         }
         stage('test'){
             steps{
-                sh ‘mvn test’
+                sh 'mvn test'
             }
         }
         stage('package'){
             steps{
-                sh ‘mvn package’
+                sh 'mvn package'
             }
         }
     }
